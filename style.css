@@ -1,0 +1,60 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    border: 1px solid #000000;
+    width: 400px;
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 17px 16px 6px 0px rgba(0,0,0,0.4);
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.buttons {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: block;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    overflow: hidden;
+    margin-top: 1px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.inputs {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+}
